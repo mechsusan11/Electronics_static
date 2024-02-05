@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elctronics</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <!-- ionicons -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- <div class="container-fluid"> -->
+      <!-- navbar -->
+      <!-- <nav class="nav navbar p-3 fixed-top">
+        <h1 class="logo">LOGO</h1>
+        <div class="nav-content">
+          <li class="nav-li">
+            <a href="#products">Products</a>
+          </li>
+          <li class="nav-li">
+            <a href="./Contact.html" target="_blank">Contact</a>
+          </li>
+          <li class="nav-li">
+            <a href="./About.html" target="_blank">About</a>
+          </li>
+        </div>
+      </nav> -->
+
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg fixed-top p-3">
+          <a class="navbar-brand text-light" href="#">LOGO</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapseItem"><span class="navbar-toggler-icon bg-light"></span></button>
+          <div class="collapse navbar-collapse" id="collapseItem">
+              <ul class="navbar-nav ms-auto">
+                  <li class="nav-li"><a class="nav-link text-light" href="#products">Product</a></li>
+                  <li class="nav-li"><a class="nav-link text-light" href="./Contact.html">Contact</a></li>
+                  <li class="nav-li"><a class="nav-link text-light" href="./About.html">About</a></li>
+               </ul>
+          </div>
+      </nav>
+      </div>
+
+      <!-- Carousal -->
+      <main
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/blackFridaySale.jpg" alt="sale" />
+          </div>
+          <div class="carousel-item">
+            <img src="./images/tapeRecorder.jpg" alt="tapeRecorder" />
+          </div>
+          <div class="carousel-item">
+            <img src="./images/camera.jpg" alt="camera" />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </main>
+
+      <!-- categories -->
+      <div id="products" style="text-align: center">
+        <h1>Product Categories</h1>
+      </div>
+      <section class="card-container">
+        <div class="card">
+          <img src="./images/foldable.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text text-center">
+              <a
+                style="text-decoration: none"
+                href="./Foldables.html"
+                target="_blank"
+                >Foldables</a
+              >
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="./images/head.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text text-center">
+              <a href="./Headphone.html" target="_blank" style="text-decoration: none"
+                >Head Phones</a
+              >
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="./images/laptop.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text text-center">
+              <a href="./Laptop.html" target="_blank" style="text-decoration: none">Laptop</a>
+            </p>
+          </div>
+        </div>
+
+        <!-- second row -->
+        <div class="card">
+          <img
+            src="./images/pexels-koolshooters-6976094.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <p class="card-text text-center">
+              <a href="./SmartTv.html" target="_blank" style="text-decoration: none">Smart TVs</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="./images/sp.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text text-center">
+              <a href="./Smartphone.html" target="_blank" style="text-decoration: none"
+                >Smartphones</a
+              >
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="./images/tab.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text text-center">
+              <a href="./Tablet.html" target="_blank" style="text-decoration: none">Tablets</a>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- footer -->
+      <footer class="footer">
+        <div class="waves">
+          <div class="wave" id="wave1"></div>
+          <div class="wave" id="wave2"></div>
+          <div class="wave" id="wave3"></div>
+          <div class="wave" id="wave4"></div>
+        </div>
+        <ul class="social-icon">
+          <li class="social-icon__item">
+            <a class="social-icon__link" href="#">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+          <li class="social-icon__item">
+            <a class="social-icon__link" href="#">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+          <li class="social-icon__item">
+            <a class="social-icon__link" href="#">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+          <li class="social-icon__item">
+            <a class="social-icon__link" href="#">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+        </ul>
+        <ul class="menu">
+          <li class="menu__item"><a class="menu__link" href="#">Home</a></li>
+          <li class="menu__item"><a class="menu__link" href="#">About</a></li>
+          <li class="menu__item">
+            <a class="menu__link" href="#">Services</a>
+          </li>
+          <li class="menu__item"><a class="menu__link" href="#">Team</a></li>
+          <li class="menu__item"><a class="menu__link" href="#">Contact</a></li>
+        </ul>
+        <p>&copy; 2023 LOGO Electronics | All Rights Reserved</p>
+      </footer>
+    </div>
+
+    <script>
+      const cards = document.querySelectorAll(".card");
+      // to perform animations with the help of js
+      const observer = new IntersectionObserver(
+        (entries) => {
+          console.log(entries);
+          entries.forEach((item) => {
+            item.target.classList.toggle("show", item.isIntersecting);
+          });
+        },
+        {
+          threshold: 0,
+        }
+      );
+
+      cards.forEach((card) => {
+        observer.observe(card);
+      });
+    </script>
+  </body>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"
+  ></script>
+</html>
